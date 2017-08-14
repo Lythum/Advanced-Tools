@@ -97,9 +97,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\libraries\Plugin Metadata\Plugin Metadata.csproj">
+    <ProjectReference Include="..\..\libraries\Basic Features\Basic Features.csproj">
+      <Project>{3e7054e7-887f-4ffc-b34f-334a90a79517}</Project>
+      <Name>Basic Features</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libraries\Features Metadata\FeaturesMetadata.csproj">
       <Project>{fd862e1a-d6fa-4d1e-be3c-9523561938c2}</Project>
-      <Name>Plugin Metadata</Name>
+      <Name>FeaturesMetadata</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdvancedTools.Commander"
         mc:Ignorable="d"
-        Title="FrmMain" Height="300" Width="300">
+        Title="Advanced Commander" MinHeight="300" MinWidth="300">
     <Grid>
-        
     </Grid>
 </Window>

@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdvancedTools.PluginMetadata
+namespace AdvancedTools.FeaturesMetadata
 {
-	/// <summary>
-	/// Main plugin interface
-	/// </summary>
-	public interface IPlugin
+	interface IPlugin : IFeature
 	{
 	}
 }

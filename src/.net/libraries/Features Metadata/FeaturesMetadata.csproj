@@ -7,8 +7,8 @@
     <ProjectGuid>{FD862E1A-D6FA-4D1E-BE3C-9523561938C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdvancedTools.PluginMetadata</RootNamespace>
-    <AssemblyName>PluginMetadata</AssemblyName>
+    <RootNamespace>AdvancedTools.FeaturesMetadata</RootNamespace>
+    <AssemblyName>FeaturesMetadata</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IFeature.cs" />
+    <Compile Include="IFeaturesFactory.cs" />
     <Compile Include="IPlugin.cs" />
-    <Compile Include="IPluginsFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
